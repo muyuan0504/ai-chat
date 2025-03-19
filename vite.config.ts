@@ -9,7 +9,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   plugins: [vue(), vueJsx(), vueDevTools()],
   resolve: {
-    extensions: ['.js', '.ts', '.vue', '.json'],
+    extensions: ['.js', '.ts', '.vue', '.json', '.scss'],
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
